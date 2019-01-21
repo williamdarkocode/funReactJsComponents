@@ -1,0 +1,35 @@
+
+$offset : -90px;
+$count : 40;
+$duration : 0.3;
+
+
+@keyframes wave {
+  from { transform : translateY(0); color: white; }
+  to   { transform : translateY( $offset ); }
+}
+
+.rideTheWave {
+  margin-top : 10em;
+  text-align : center;
+}
+
+
+.rideTheWave .waveChar {
+  display: inline-flex;
+  font-size: 7em;
+  animation-duration: #{$duration}s;
+  animation-name: wave;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+@for $i from 0 to $count {
+  .rideTheWave :nth-child( #{$count}n + #{$i} ) {
+      animation-delay :
+        -#{($count - $i) * 2 * $duration / $count }s;
+
+        color: rgba(125+$i * 20 % 155, 226, 252+ $i * 40 % 55, 1);
+    }
+}

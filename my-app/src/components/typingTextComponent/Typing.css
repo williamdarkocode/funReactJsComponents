@@ -1,0 +1,12 @@
+#typedTextDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.letters {
+  font-size: 2em;
+  font-family: monospace;
+}
