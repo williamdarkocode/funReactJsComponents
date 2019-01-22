@@ -8,9 +8,11 @@ import './App.css';
 
 class App extends Component {
   render() {
+    let text = "Hello, World!"
     return (
       <div className="App">
-        <Typing wordToType="Subscribe to VicyXCode!"/>
+        <WaveyText rippleText={text}/>
+        <Typing wordToType={text}/>
       </div>
     );
   }

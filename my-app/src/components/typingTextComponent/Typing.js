@@ -13,7 +13,8 @@ export default class Typing extends Component {
       arr: [],
       typing: false,
       backward: false,
-      forward: false
+      forward: false,
+      speed: 150
     }
   }
 
@@ -59,7 +60,7 @@ export default class Typing extends Component {
         $("#"+idx).css("display", "none");
         console.log("Backward:" + idx);
         this.typeBackward(idx-1);
-      }, 200)
+      }, this.state.speed)
     }
   }
 
@@ -79,7 +80,7 @@ export default class Typing extends Component {
         $("#"+idx).css("display", "inline");
         console.log("Forward: "+ idx);
         this.typeForward(idx+1);
-      }, 200)
+      }, this.state.speed)
     }
   }
 

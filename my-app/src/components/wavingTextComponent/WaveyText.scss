@@ -17,7 +17,7 @@ $duration : 0.3;
 
 .rideTheWave .waveChar {
   display: inline-flex;
-  font-size: 7em;
+  font-size: 5em;
   animation-duration: #{$duration}s;
   animation-name: wave;
   animation-iteration-count: infinite;

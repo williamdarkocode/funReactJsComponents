@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import './WaveyText.css';
-// import './WaveyText.scss';
+// import './WaveyText.css';
+import './WaveyText.scss';
 export default class WaveyText extends Component {
     constructor(props) {
         super(props);
@@ -19,9 +19,12 @@ export default class WaveyText extends Component {
 
     handleLetterMap = () => {
         let tempArr = [];
-        for(let char of this.state.text) {
-            // tempArr = [tempArr, char];
-            tempArr.push(char);
+        // for(let char of this.state.text) {
+        //     // tempArr = [tempArr, char];
+        //     tempArr.push(char);
+        // }
+        for(let i = 0; i < this.state.text.length; i++) {
+          tempArr.push(this.state.text.substring(i,i+1))
         }
         this.setState({
             charArr: tempArr
@@ -53,7 +56,7 @@ export default class WaveyText extends Component {
                     this.state.word.map((i,index) =>
                         {
                             return(
-                                <span key={index} className="waveChar" id={index}>{i}</span>
+                                <span key={index} className="waveChar">{i}</span>
                             )
                         }
                     )
