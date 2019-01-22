@@ -1,12 +1,29 @@
+@keyframes type {
+  from {
+    border-right: none;
+  }
+  to {
+    border-right: 8px solid black;
+  }
+
+}
+
+
+
 #typedTextDiv {
-  width: 100%;
   display: flex;
   align-items: center;
   align-content: center;
   justify-content: center;
+  border-right: 8px solid black;
+  align-self: center;
+  width: max-content;
+  margin-left: 2%;
+  animation: type 1s infinite;
 }
 
 .letters {
-  font-size: 2em;
+  font-size: 4em;
   font-family: monospace;
+  margin-right: 10px;
 }
