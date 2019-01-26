@@ -1,0 +1,16 @@
+#textContainer {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bouncyLetters {
+  font-size: 5em;
+  margin-right: 10px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}

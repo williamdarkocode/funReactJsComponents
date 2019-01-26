@@ -18,7 +18,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
     font-size: 5em;
-    font-family: monospace;
+    /* font-family: monospace; */
     margin-right: 10px;
   }
   .rideTheWave :nth-child( 40n + 0) {
