@@ -1,0 +1,15 @@
+#typeContainer {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.typeLetters {
+  font-size: 5em;
+  margin-right: 10px;
+  color: black;
+  opacity: 0;
+}
