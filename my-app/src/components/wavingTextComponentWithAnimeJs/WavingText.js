@@ -39,13 +39,13 @@ export default class WavingText extends Component {
   componentDidUpdate() {
     this.animeRef = anime({
       targets: this.refArr,
-      keyframes: [{translateY: -90}, {translateY: 0}, {translateY: 15}, {translateY: 0}],
+      keyframes: [{translateY: -90}, {translateY: 30}, {translateY: 0}],
       autoplay: true,
-      // delay: anime.stagger(50),
+      delay: anime.stagger(50),
       //delay: anime.stagger(100, {from: 'center'}),
-      delay: (el, i) => {
-        return 50*i
-      },
+      // delay: (el, i) => {
+      //   return 50*i
+      // },
       loop: true,
       easing: 'easeInOutSine',
       backgroundColor: {
@@ -56,20 +56,20 @@ export default class WavingText extends Component {
         value: ['#FFF', '#000'],
         easing: 'easeInOutSine'
       },
-      direction: 'alternate',
+      // direction: 'alternate',
     });
   }
 
   bounceLetters = (childNodeList) => {
     anime({
       targets: childNodeList,
-      keyframes: [{translateY: -90}, {translateY: 0}, {translateY: 15}, {translateY: 0}],
+      keyframes: [{translateY: -90}, {translateY: 0}],
       autoplay: true,
-      // delay: anime.stagger(50),
+      delay: anime.stagger(50),
       //delay: anime.stagger(100, {from: 'center'}),
-      delay: (el, i) => {
-        return 50*i
-      },
+      // delay: (el, i) => {
+      //   return 50*i
+      // },
       loop: true,
       easing: 'easeInOutSine',
       backgroundColor: {
@@ -80,7 +80,7 @@ export default class WavingText extends Component {
         value: ['#FFF', '#000'],
         easing: 'easeInOutSine'
       },
-      direction: 'alternate',
+      // direction: 'alternate',
     });
   }
 
