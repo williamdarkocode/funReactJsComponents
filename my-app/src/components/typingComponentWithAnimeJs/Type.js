@@ -24,9 +24,17 @@ export default class Type extends Component {
       delay: anime.stagger(200),
       autoplay: true,
       loop: true,
+      translateY: {
+        value: [-10,0],
+        easing: 'spring(1, 100, 5, 0)'
+      },
       opacity: {
         value: 1,
-        easing: 'spring'
+        easing: 'spring(1, 100, 10, 0)'
+      },
+      scale: {
+        value: 1.05,
+        easing: 'spring(1, 100, 10, 0)'
       },
       easing: 'spring',
       direction: 'alternate',
