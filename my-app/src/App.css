@@ -6,7 +6,6 @@
   align-items: center;
   /* align-content: center; */
   padding-top: 20%;
-  font-family: 'Montserrat', 200;
   display: flex;
   flex-direction: column;
 }
