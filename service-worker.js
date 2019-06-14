@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/funReactJsComponents/myapp/scripts/build.js/precache-manifest.c740dde7a9f61011bb6c4792979226b5.js"
+  "/funReactJsComponents/my-app/build/index.html/precache-manifest.bf7b9aec1b2a04a19d46705825734cbe.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/funReactJsComponents/myapp/scripts/build.js/index.html", {
+workbox.routing.registerNavigationRoute("/funReactJsComponents/my-app/build/index.html/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

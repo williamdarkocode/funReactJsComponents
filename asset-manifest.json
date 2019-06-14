@@ -1,13 +1,13 @@
 {
-  "main.css": "/funReactJsComponents/myapp/scripts/build.js/static/css/main.6636e05f.chunk.css",
-  "main.js": "/funReactJsComponents/myapp/scripts/build.js/static/js/main.a8486cb3.chunk.js",
-  "main.js.map": "/funReactJsComponents/myapp/scripts/build.js/static/js/main.a8486cb3.chunk.js.map",
-  "static/js/1.4c260f1a.chunk.js": "/funReactJsComponents/myapp/scripts/build.js/static/js/1.4c260f1a.chunk.js",
-  "static/js/1.4c260f1a.chunk.js.map": "/funReactJsComponents/myapp/scripts/build.js/static/js/1.4c260f1a.chunk.js.map",
-  "runtime~main.js": "/funReactJsComponents/myapp/scripts/build.js/static/js/runtime~main.8ef51c1c.js",
-  "runtime~main.js.map": "/funReactJsComponents/myapp/scripts/build.js/static/js/runtime~main.8ef51c1c.js.map",
-  "static/css/main.6636e05f.chunk.css.map": "/funReactJsComponents/myapp/scripts/build.js/static/css/main.6636e05f.chunk.css.map",
-  "index.html": "/funReactJsComponents/myapp/scripts/build.js/index.html",
-  "precache-manifest.c740dde7a9f61011bb6c4792979226b5.js": "/funReactJsComponents/myapp/scripts/build.js/precache-manifest.c740dde7a9f61011bb6c4792979226b5.js",
-  "service-worker.js": "/funReactJsComponents/myapp/scripts/build.js/service-worker.js"
+  "main.css": "/funReactJsComponents/my-app/build/index.html/static/css/main.6636e05f.chunk.css",
+  "main.js": "/funReactJsComponents/my-app/build/index.html/static/js/main.9b8b5519.chunk.js",
+  "main.js.map": "/funReactJsComponents/my-app/build/index.html/static/js/main.9b8b5519.chunk.js.map",
+  "static/js/1.4c260f1a.chunk.js": "/funReactJsComponents/my-app/build/index.html/static/js/1.4c260f1a.chunk.js",
+  "static/js/1.4c260f1a.chunk.js.map": "/funReactJsComponents/my-app/build/index.html/static/js/1.4c260f1a.chunk.js.map",
+  "runtime~main.js": "/funReactJsComponents/my-app/build/index.html/static/js/runtime~main.bf4ddf5e.js",
+  "runtime~main.js.map": "/funReactJsComponents/my-app/build/index.html/static/js/runtime~main.bf4ddf5e.js.map",
+  "static/css/main.6636e05f.chunk.css.map": "/funReactJsComponents/my-app/build/index.html/static/css/main.6636e05f.chunk.css.map",
+  "index.html": "/funReactJsComponents/my-app/build/index.html/index.html",
+  "precache-manifest.bf7b9aec1b2a04a19d46705825734cbe.js": "/funReactJsComponents/my-app/build/index.html/precache-manifest.bf7b9aec1b2a04a19d46705825734cbe.js",
+  "service-worker.js": "/funReactJsComponents/my-app/build/index.html/service-worker.js"
 }
