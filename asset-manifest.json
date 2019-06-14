@@ -1,13 +1,13 @@
 {
-  "main.css": "/myapp/static/css/main.6636e05f.chunk.css",
-  "main.js": "/myapp/static/js/main.26c7ab09.chunk.js",
-  "main.js.map": "/myapp/static/js/main.26c7ab09.chunk.js.map",
-  "static/js/1.4c260f1a.chunk.js": "/myapp/static/js/1.4c260f1a.chunk.js",
-  "static/js/1.4c260f1a.chunk.js.map": "/myapp/static/js/1.4c260f1a.chunk.js.map",
-  "runtime~main.js": "/myapp/static/js/runtime~main.8dd91205.js",
-  "runtime~main.js.map": "/myapp/static/js/runtime~main.8dd91205.js.map",
-  "static/css/main.6636e05f.chunk.css.map": "/myapp/static/css/main.6636e05f.chunk.css.map",
-  "index.html": "/myapp/index.html",
-  "precache-manifest.16bbb23c0073520a22446a23af3c400b.js": "/myapp/precache-manifest.16bbb23c0073520a22446a23af3c400b.js",
-  "service-worker.js": "/myapp/service-worker.js"
+  "main.css": "/funReactJsComponents/myapp/scripts/build.js/static/css/main.6636e05f.chunk.css",
+  "main.js": "/funReactJsComponents/myapp/scripts/build.js/static/js/main.a8486cb3.chunk.js",
+  "main.js.map": "/funReactJsComponents/myapp/scripts/build.js/static/js/main.a8486cb3.chunk.js.map",
+  "static/js/1.4c260f1a.chunk.js": "/funReactJsComponents/myapp/scripts/build.js/static/js/1.4c260f1a.chunk.js",
+  "static/js/1.4c260f1a.chunk.js.map": "/funReactJsComponents/myapp/scripts/build.js/static/js/1.4c260f1a.chunk.js.map",
+  "runtime~main.js": "/funReactJsComponents/myapp/scripts/build.js/static/js/runtime~main.8ef51c1c.js",
+  "runtime~main.js.map": "/funReactJsComponents/myapp/scripts/build.js/static/js/runtime~main.8ef51c1c.js.map",
+  "static/css/main.6636e05f.chunk.css.map": "/funReactJsComponents/myapp/scripts/build.js/static/css/main.6636e05f.chunk.css.map",
+  "index.html": "/funReactJsComponents/myapp/scripts/build.js/index.html",
+  "precache-manifest.c740dde7a9f61011bb6c4792979226b5.js": "/funReactJsComponents/myapp/scripts/build.js/precache-manifest.c740dde7a9f61011bb6c4792979226b5.js",
+  "service-worker.js": "/funReactJsComponents/myapp/scripts/build.js/service-worker.js"
 }
