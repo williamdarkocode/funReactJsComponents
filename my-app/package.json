@@ -119,8 +119,8 @@
       "react-app"
     ]
   },
-  "homepage": "http://williamdarkocode.github.io/funReactJsComponents/my-app/build/index.html",
   "devDependencies": {
     "gh-pages": "^2.0.1"
-  }
+  },
+  "homepage": "http://williamdarkocode.github.io/funReactJsComponents/my-app/build/index.html"
 }
